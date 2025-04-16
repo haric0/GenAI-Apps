@@ -1,0 +1,40 @@
+# Ignore Python virtual environments
+Text2SQLAgent/text2sqlvenv/
+Text2SQLAgent/.venv/
+Text2SQLAgent/.env
+
+# Python cache and artifacts
+**/__pycache__/
+**/*.py[cod]
+**/*.egg-info/
+
+# VSCode settings
+**/.vscode/
+
+# Node.js
+Text2SQLAgent/frontend/node_modules/
+Text2SQLAgent/frontend/.next/
+Text2SQLAgent/frontend/dist/
+Text2SQLAgent/frontend/build/
+**/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db
+
+# Logs
+Text2SQLAgent/logs/
+*.log
+
+# FAISS files (if applicable)
+Text2SQLAgent/**/*.faiss
+Text2SQLAgent/**/*.index
+
+# Jupyter checkpoints (if any)
+**/.ipynb_checkpoints/
+
+# Streamlit
+Text2SQLAgent/.streamlit/secrets.toml

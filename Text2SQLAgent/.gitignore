@@ -1,0 +1,15 @@
+# .gitignore
+
+# Ignore virtual environments
+text2sqlvenv/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore system files
+.DS_Store
+
+# Ignore IDE configuration files (e.g., VS Code, PyCharm)
+.vscode/
+.idea/

@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+python-multipart
+sqlparse
+langchain
+faiss-cpu
+tqdm
+sentence_transformers
